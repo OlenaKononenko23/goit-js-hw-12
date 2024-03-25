@@ -1,0 +1,143 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  margin: auto;
+  margin-top: 32px;
+  gap: 24px;
+}
+
+.form-button {
+  width: 91px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4e75ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.form-button:hover {
+  background-color: #6c8cff;
+}
+
+.form-input {
+  width: 272px;
+  height: 40px;
+  padding: 8px 16px;
+  font: inherit;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.gallery-item {
+  width: 360px;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+}
+
+.gallery-link {
+  font: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+
+.gallery-img {
+  display: block;
+  max-width: 100%;
+}
+
+.gallery-descript {
+  display: flex;
+  padding: 4px 20px;
+  justify-content: space-between;
+}
+
+.gallery-descript__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-descript__span {
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.loader {
+  width: 96px;
+  box-sizing: content-box;
+  height: 48px;
+  background: #FFF;
+  border-color: #de3500;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 100%;
+  position: absolute;
+  animation: 3s yinYang linear infinite;
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+.loader:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #FFF;
+  border: 18px solid #de3500;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+
+.loader:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #de3500;
+  border: 18px solid #FFF;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+
+@keyframes yinYang {
+  100%{transform: rotate(360deg)}
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
