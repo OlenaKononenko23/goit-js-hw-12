@@ -141,3 +141,26 @@ ul {
   opacity: 0;
   visibility: hidden;
 }
+
+.load-more {
+  width: 125px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  background-color: #4e75ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: none;
+  margin-top: 50px;
+}
+
+.load-more:hover {
+  background-color: #6c8cff;
+}

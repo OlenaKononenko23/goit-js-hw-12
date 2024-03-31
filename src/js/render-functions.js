@@ -21,7 +21,7 @@ function imageTemplate(data) {
           <li class="gallery-descript__item"><span class="gallery-descript__span">likes</span> ${likes}</li>
           <li class="gallery-descript__item"><span class="gallery-descript__span">Views</span> ${views}</li>
           <li class="gallery-descript__item"><span class="gallery-descript__span">Coments</span> ${comments}</li>
-          <li class="gallery-descript__item"><span class="gallery-descript__span">Dowloads</span> ${downloads}</li>
+          <li class="gallery-descript__item"><span class="gallery-descript__span">Downloads</span> ${downloads}</li>
        </ul>
       </a>
   </li>`;
